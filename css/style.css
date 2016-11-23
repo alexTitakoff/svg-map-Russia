@@ -1,0 +1,29 @@
+*{margin:0;padding:0;}
+
+svg{
+  width:100%;
+
+}
+path{transition:all .5s; fill:rgba(0,0,0,0.6);stroke: rgba(0,0,0,0.5);}
+
+.indicator{
+  position:absolute;
+  display:inline;
+  background:rgba(0,0,0,1);
+  color:#f1f1f1;
+  padding:10px 30px;
+  font:20px Arial;
+  border-radius:5px;
+  min-width:300px;
+  
+  text-transform:capitalize;
+  display:none;
+  
+
+}
+
+.clear{clear:both}
+.name{float:left;margin-right:30px;}
+/*.flag{position:absolute;top:10px;right:20px;border:3px solid #f7ffe8;border-radius:3px;
+  }*/
+.capital{clear:both;}
