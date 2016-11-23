@@ -1,45 +1,4 @@
 
-// function numberFormat(nr){
-// 	//remove the existing ,
-// 	var regex = /,/g;
-// 	nr = nr.replace(regex,'');
-// 	//force it to be a string
-// 	nr += '';
-// 	//split it into 2 parts  (for numbers with decimals, ex: 125.05125)
-// 	var x = nr.split('.');
-// 	var p1 = x[0];
-// 	var p2 = x.length > 1 ? '.' + x[1] : '';
-// 	//match groups of 3 numbers (0-9) and add , between them
-// 	regex = /(\d+)(\d{3})/;
-// 	while (regex.test(p1)) {
-// 		p1 = p1.replace(regex, '$1' + ',' + '$2');
-// 	}
-// 	//join the 2 parts and return the formatted number
-// 	return p1 + p2;
-// }
-
-// function update(json){
-//   country = json['geonames'][0];
-
-//   if(country === undefined){
-//     $('.indicator').html('Information could not be found').css('width','300px');
-
-//   }else{
-
-//     $('.indicator').html('').append('<h2 class="name">'+country.countryName+'</h2>');
-//     $('.indicator').append('<img src="http://www.geonames.org/flags/m/'+country.countryCode.toLowerCase()+'.png" alt="" class="flag" />');
-
-//     $('.indicator').append('<div class="clear capital">Capital City : '+country.capital+'</div>');
-
-//     $('.indicator').append('<div class="population">Population : '+numberFormat(country.population)+'</div>');
-
-//     if(country.countryName== 'Lebanon')country.areaInSqKm = '10452';
-
-//     $('.indicator').append('<div class="area">Area in km&sup2; : '+ numberFormat(country.areaInSqKm)+ '</div>');
-
-//   }
-// }
-
 
 $('path').hover(function(e){
 
